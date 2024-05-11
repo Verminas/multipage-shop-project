@@ -4,6 +4,7 @@ export const theme = {
     fonts: {
       fontPrimary: '#0F1113',
       fontSecondary: '#263141',
+      fontThird: '#7E8794',
       fontLink: '#FFFFFF',
       fontPlaceholder: '#A1ABB9',
     },
@@ -11,6 +12,12 @@ export const theme = {
       primary: '#FFFFFF',
       secondary: '#F2F5F9',
       header: '#FDFDFD',
+    },
+    borders: {
+      light: '#ECEEEF',
+    },
+    icons: {
+      social: '#0F1113',
     }
 
   },

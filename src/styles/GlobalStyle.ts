@@ -27,6 +27,9 @@ export const GlobalStyle = createGlobalStyle`
         color: inherit;
         cursor: pointer;
     }
+    li{
+        list-style: none;
+    }
 
     button, a, input {
         &:focus-visible {

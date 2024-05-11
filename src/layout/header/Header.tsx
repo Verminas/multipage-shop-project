@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container} from "../../components/Container";
-import logoSrc from '../../assets/images/behoof_logo.svg';
 import {ButtonIcon} from "../../components/ButtonIcon/ButtonIcon";
 import {SearchForm} from "../../components/SearchForm/SearchForm";
 import styled from "styled-components";

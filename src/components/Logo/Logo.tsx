@@ -15,7 +15,7 @@ export const Logo: React.FC = () => {
 const StyledLogo = styled.div`
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 `
 
