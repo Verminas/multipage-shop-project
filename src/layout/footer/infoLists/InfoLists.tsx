@@ -13,7 +13,7 @@ export const InfoLists = () => {
       )
     })
     return (
-      <WrapperListItem>
+      <WrapperListItem key={indexI}>
         <TitleList>{title}</TitleList>
         <List>
           {itemsElements}

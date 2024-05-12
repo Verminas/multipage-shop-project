@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        //min-width: 375px;
+        min-width: 375px;
         font-size: 16px;
         font-family: Inter, sans-serif;
     }

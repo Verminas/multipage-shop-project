@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {GlobalStyle} from "./styles/GlobalStyle";
-
+// images
+import image from '../src/assets/images/behoof_logo.svg';
+import imgMobile from '../src/assets/images/advertiseMobile.png';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -113,7 +115,22 @@ export const footerData = {
       ],
     },
   ],
-}
+};
+export const advertiseData = [
+  {
+    text: '1.8 млн товаров в 2272 магазинах найди, сравни, выберай!',
+    linkName: 'перейти к категориям',
+    linkHref: '#',
+  },
+  {
+    text: 'Топ-10 смартфонов 2023 года',
+    linkName: 'смотреть',
+    linkHref: '#',
+    imgSrc: imgMobile,
+    imgAlt: 'сматрфон',
+    minCard: true,
+  },
+]
 
 
 

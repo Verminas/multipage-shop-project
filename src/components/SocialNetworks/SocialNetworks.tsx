@@ -7,7 +7,7 @@ import {theme} from "../../styles/Theme";
 import {FlexWrapper} from "../FlexWrapper";
 
 export const SocialNetworks: React.FC = () => {
-  const socialListElements = footerData.socialList.map(l => {
+  const socialListElements = footerData.socialList.map((l, index) => {
     const title = l.title;
     const listElements = l.list.map((i) => {
       return (

@@ -31,5 +31,8 @@ const StyledLink = styled.a`
     span{
         ${font({weight: 500, color: theme.colors.fonts.fontLink})};
         font-size: 16px;
+        &::first-letter{
+            text-transform: uppercase;
+        }
     }
 `
